@@ -13,6 +13,50 @@
   }
 }
 
+.blue {
+  background-color: lightblue;
+  border: none;
+  border-radius: 3px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.blue:hover{
+  opacity: .9;
+}
+
+.red {
+  background-color: lightcoral;
+  border: none;
+  border-radius: 3px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.red:hover{
+  opacity: .9;
+}
+
+.blueIn {
+  background-color: lightblue;
+  border: 1px;
+  border-radius: 3px;
+  height: 50px;
+  width: 50px;
+  color: black;
+  margin-top: 3px;
+}
+
+.redIn {
+  background-color: lightcoral;
+  border: 1px;
+  border-radius: 3px;
+  height: 50px;
+  width: 50px;
+  color: black;
+  margin-top: 3px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
