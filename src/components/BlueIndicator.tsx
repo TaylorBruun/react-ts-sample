@@ -1,14 +1,15 @@
 import React from "react";
 import type { RootState } from "../store";
 import { useSelector, useDispatch } from "react-redux";
-import { increment } from "../slices/BlueSlice";
+import { reset } from "../slices/BlueSlice";
 
 export const BlueIndicator = () => {
   const count = useSelector((state: RootState) => state.blueClicks.value);
+  const dispatch = useDispatch()
   
 
   return (
-    <div className="blueIn">
+    <div onClick={()=> dispatch(reset())} className="blueIn">
       {count}
     </div>
   );

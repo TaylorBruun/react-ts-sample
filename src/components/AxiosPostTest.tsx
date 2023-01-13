@@ -12,7 +12,7 @@ export const AxiosPostTest = () => {
     const eventData: event = {
         id: "",
         creatorId: "63a333cee89ed1f66a73db70",
-        name: "Test Event 7",
+        name: "Test Event 8",
         description: "Test Description",
         coverImg: "https://thiscatdoesnotexist.com/",
         location: "Test Blvd",

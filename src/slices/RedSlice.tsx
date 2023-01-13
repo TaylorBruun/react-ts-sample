@@ -19,9 +19,12 @@ export const redSlice = createSlice({
     decrement: (state) => {
       state.value -= 1;
     },
+    reset: (state) => {
+      state.value = 0;
+    },
   },
 });
 
-export const { increment, decrement } = redSlice.actions;
+export const { increment, decrement, reset } = redSlice.actions;
 
 export default redSlice.reducer;

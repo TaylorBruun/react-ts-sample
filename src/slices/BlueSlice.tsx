@@ -19,9 +19,12 @@ export const blueSlice = createSlice({
     decrement: (state) => {
       state.value -= 1;
     },
+    reset: (state) => {
+      state.value = 0;
+    },
   },
 });
 
-export const { increment, decrement } = blueSlice.actions;
+export const { increment, decrement, reset } = blueSlice.actions;
 
 export default blueSlice.reducer;
